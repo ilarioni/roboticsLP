@@ -22,6 +22,10 @@ body {
     flex-basis: 80%;
     position: relative;
 }
+.right-box nav ul li a {
+    font-size: 18px;
+    font-weight: normal;
+}
 .logo {
     width: 50px;
     border: 1px solid #a4d7fd;
@@ -85,10 +89,11 @@ nav ul li a {
     text-decoration: none;
 }
 .right-box h2 {
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 60px;
     font-size: 50px;
     letter-spacing: 3px;
+    font-weight: normal;
 }
 .robot {
     position: absolute;
@@ -151,6 +156,7 @@ nav ul li a {
     font-size: 12px;
     padding: 10px;
     border-bottom: 2px solid #fff;
+    font-weight: normal;
 }
 .pagination {
     position: absolute;
@@ -191,4 +197,9 @@ nav ul li a {
 a {
     position: relative;
     z-index: 2;
+}
+small {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: sans-serif;
 }

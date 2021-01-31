@@ -158,3 +158,9 @@ nav ul li a {
     font-size: 22px;
     border-bottom: 5px solid #fff;
 }
+.volume {
+    width: 25px;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+}

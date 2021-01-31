@@ -105,3 +105,17 @@ nav ul li a {
     opacity: 0.1;
     z-index: -1;
 }
+.features {
+    position: absolute;
+    bottom: 17%;
+    left: -220px;
+}
+.features img {
+    width: 40px;
+    margin-left: 20px;
+}
+.features div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}

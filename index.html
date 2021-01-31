@@ -23,7 +23,7 @@
                     <li><a href="#">PRODUCTION</a></li>
                     <li><a href="#">FACILITY</a></li>
                     <li><a href="#">MECHANISM</a></li>
-                    <li><a href="#">OUR TEMA</a></li>
+                    <li><a href="#">OUR TEAM</a></li>
                     <li><a href="#">OUR IDEAS</a></li>
                 </ul>
 
@@ -78,7 +78,14 @@
     <div class="smallCursor"></div>
 
     <script>
-        
+        var smallCursor = document.querySelector(".smallCursor");
+
+        document.onmousemove = function(e) {
+            smallCursor.style.left = (e.pageX - 5) + "px";
+            smallCursor.style.top = (e.pageY - 5) + "px";
+
+            smallCursor.style.display = "block";
+        }
     </script>
     
 </body>
